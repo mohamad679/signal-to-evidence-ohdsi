@@ -1,0 +1,46 @@
+name: Analysis task
+description: Request a study-design, SQL, statistical, or reporting task
+title: "[Analysis]: "
+labels:
+  - enhancement
+
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: Define the intended analytical output.
+    validations:
+      required: true
+
+  - type: textarea
+    id: inputs
+    attributes:
+      label: Inputs
+      description: List relevant configuration, SQL, R, and protocol files.
+    validations:
+      required: true
+
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints
+      description: State temporal, methodological, data-governance, and scope constraints.
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Define the observable completion criteria.
+    validations:
+      required: true
+
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification commands
+      description: List tests, lint, project checks, analysis, or rendering commands.
+    validations:
+      required: true

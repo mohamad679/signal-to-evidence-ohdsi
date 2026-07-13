@@ -1,0 +1,47 @@
+name: Bug report
+description: Report a reproducible implementation or workflow defect
+title: "[Bug]: "
+labels:
+  - bug
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem
+      description: Describe the observed defect.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Provide the exact commands and minimal steps.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: Describe the expected result.
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant output
+      description: Paste relevant terminal output.
+      render: shell
+
+  - type: dropdown
+    id: data_risk
+    attributes:
+      label: Does the report contain patient-level data or credentials?
+      options:
+        - "No"
+        - "Unsure — remove sensitive content before submission"
+    validations:
+      required: true
