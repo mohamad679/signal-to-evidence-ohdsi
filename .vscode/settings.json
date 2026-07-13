@@ -1,0 +1,14 @@
+{
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.formatOnSave": false,
+  "editor.rulers": [80, 100],
+  "r.bracketedPaste": true,
+  "r.alwaysUseActiveTerminal": true,
+  "r.plot.useHttpgd": true,
+  "yaml.validate": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "markdown.validate.enabled": true
+}

@@ -1,0 +1,54 @@
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Renviron
+.Rprofile.local
+
+# renv
+renv/library/
+renv/staging/
+renv/python/
+renv/cache/
+
+# Data
+data/raw/*
+data/derived/*
+!data/raw/.gitkeep
+!data/derived/.gitkeep
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+*.duckdb
+
+# Results containing row-level data
+results/private/
+*.rds
+*.RDS
+
+# Credentials
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials/
+
+# Quarto
+.quarto/
+_site/
+reports/_freeze/
+reports/*_files/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/*.log
+
+# Temporary
+tmp/
+temp/
+*.tmp
