@@ -1,0 +1,7 @@
+table_name,record_count,person_count
+person,2694,2694
+observation_period,5343,5343
+drug_exposure,67707,2694
+condition_occurrence,65332,2694
+visit_occurrence,1037,890
+measurement,44053,2686
