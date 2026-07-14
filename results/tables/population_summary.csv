@@ -1,0 +1,5 @@
+metric,category,person_count,category_order
+gender,MALE,1321,1
+gender,FEMALE,1373,2
+age_group,<18,2694,1
+follow_up_group,730+ days,2694,4
