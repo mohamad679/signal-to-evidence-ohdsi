@@ -1,0 +1,6 @@
+data_raw: data/raw
+data_derived: data/derived
+results_tables: results/tables
+results_models: results/models
+figures: figures
+reports: reports
