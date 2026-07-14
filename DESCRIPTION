@@ -1,0 +1,48 @@
+Package: signaltoevidence
+Type: Project
+Title: Signal to Evidence OHDSI Demonstration
+Version: 0.1.0
+Authors@R: person(
+    given = "Mohammad",
+    family = "Asgari",
+    role = c("aut", "cre")
+  )
+Description: A reproducible methodological OHDSI/OMOP demonstration using
+    Eunomia sample data.
+License: MIT
+Encoding: UTF-8
+Depends:
+    R (>= 4.0.0)
+Imports:
+    broom,
+    checkmate,
+    cli,
+    cobalt,
+    CohortMethod,
+    DatabaseConnector,
+    DBI,
+    dplyr,
+    Eunomia,
+    FeatureExtraction,
+    forcats,
+    fs,
+    ggplot2,
+    glue,
+    here,
+    jsonlite,
+    knitr,
+    lintr,
+    lubridate,
+    purrr,
+    readr,
+    rmarkdown,
+    sandwich,
+    scales,
+    SqlRender,
+    stringr,
+    styler,
+    survey,
+    survival,
+    testthat,
+    tidyr,
+    yaml
