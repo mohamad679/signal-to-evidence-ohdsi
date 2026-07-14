@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run tests",
+      "type": "shell",
+      "command": "Rscript scripts/run_tests.R"
+    },
+    {
+      "label": "Run lint",
+      "type": "shell",
+      "command": "Rscript scripts/run_lint.R"
+    },
+    {
+      "label": "Check project",
+      "type": "shell",
+      "command": "Rscript scripts/check_project.R"
+    },
+    {
+      "label": "Render Quarto",
+      "type": "shell",
+      "command": "quarto render"
+    }
+  ]
+}

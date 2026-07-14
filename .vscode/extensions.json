@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "openai.chatgpt",
+    "reditorsupport.r",
+    "quarto.quarto",
+    "github.vscode-pull-request-github",
+    "redhat.vscode-yaml",
+    "eamodio.gitlens",
+    "yzhang.markdown-all-in-one",
+    "editorconfig.editorconfig"
+  ]
+}
