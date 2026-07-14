@@ -1,0 +1,38 @@
+concept_id,concept_name,exposure_count,exposed_person_count,ingredient_concept_id,ingredient_concept_name
+40213227,"tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use",7430,2660,NA,NA
+1127433,Acetaminophen 325 MG Oral Tablet,9365,2580,1125315,Acetaminophen
+40213160,"poliovirus vaccine, inactivated",7977,2140,NA,NA
+1713671,Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet,3851,2021,1713332,Amoxicillin
+1713671,Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet,3851,2021,1759842,Clavulanate
+19059056,Aspirin 81 MG Oral Tablet,4380,1927,1112807,Aspirin
+1118084,celecoxib,1844,1844,1118084,celecoxib
+40213296,"hepatitis A vaccine, adult dosage",3211,1737,NA,NA
+40213306,"hepatitis B vaccine, adult dosage",1916,1560,NA,NA
+1127078,Acetaminophen 160 MG Oral Tablet,2158,1428,1125315,Acetaminophen
+40229134,Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution,1993,1393,1125315,Acetaminophen
+40229134,Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution,1993,1393,1119510,Dextromethorphan
+40229134,Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution,1993,1393,738818,Doxylamine
+19078461,Ibuprofen 200 MG Oral Tablet,1767,1280,1177480,Ibuprofen
+19133873,Penicillin V Potassium 250 MG Oral Tablet,1719,1272,1729720,Penicillin V
+40213260,"zoster vaccine, live",2125,1140,NA,NA
+1115171,Naproxen sodium 220 MG Oral Tablet,1159,947,1115008,Naproxen
+19133905,Penicillin V Potassium 500 MG Oral Tablet,1087,856,1729720,Penicillin V
+1124300,Diclofenac,850,850,1124300,Diclofenac
+19006318,Penicillin G 375 MG/ML Injectable Solution,1142,831,1728416,Penicillin G
+40213201,"pneumococcal polysaccharide vaccine, 23 valent",714,714,NA,NA
+920300,Nitrofurantoin 5 MG/ML Oral Suspension,810,630,920293,Nitrofurantoin
+40236824,Phenazopyridine hydrochloride 100 MG Oral Tablet,810,630,933724,Phenazopyridine
+19128065,{7 (Inert Ingredients 1 MG Oral Tablet) / 21 (Mestranol 0.05 MG / Norethindrone 1 MG Oral Tablet) } Pack [Norinyl 1+50 28 Day],1056,605,19127890,Inert Ingredients
+19128065,{7 (Inert Ingredients 1 MG Oral Tablet) / 21 (Mestranol 0.05 MG / Norethindrone 1 MG Oral Tablet) } Pack [Norinyl 1+50 28 Day],1056,605,1503184,Mestranol
+19128065,{7 (Inert Ingredients 1 MG Oral Tablet) / 21 (Mestranol 0.05 MG / Norethindrone 1 MG Oral Tablet) } Pack [Norinyl 1+50 28 Day],1056,605,1521369,Norethindrone
+40213314,"Haemophilus influenzae type b vaccine, PRP-OMP conjugate",1413,555,NA,NA
+40213198,"pneumococcal conjugate vaccine, 13 valent",453,453,NA,NA
+19129655,Ampicillin 100 MG/ML Injectable Solution,488,432,1717327,Ampicillin
+46233988,Doxycycline Monohydrate 50 MG Oral Tablet,480,399,1738521,Doxycycline
+40165015,Meperidine Hydrochloride 50 MG Oral Tablet,367,367,1102527,Meperidine
+19075601,clopidogrel 75 MG Oral Tablet,363,321,1322184,clopidogrel
+40162522,Acetaminophen 325 MG / Hydrocodone Bitartrate 7.5 MG Oral Tablet,312,312,1125315,Acetaminophen
+40162522,Acetaminophen 325 MG / Hydrocodone Bitartrate 7.5 MG Oral Tablet,312,312,1174888,Hydrocodone
+40231925,Acetaminophen 325 MG / Oxycodone Hydrochloride 5 MG Oral Tablet,306,306,1125315,Acetaminophen
+40231925,Acetaminophen 325 MG / Oxycodone Hydrochloride 5 MG Oral Tablet,306,306,1124957,Oxycodone
+40213251,varicella virus vaccine,422,301,NA,NA

@@ -1,0 +1,19 @@
+target_concept_id,comparator_concept_id,outcome_concept_id,target_subject_count,comparator_subject_count,target_outcome_count,comparator_outcome_count,median_prior_observation_days,target_concept_name,comparator_concept_name,outcome_concept_name,total_outcome_count,minimum_arm_size,feasible
+1118084,1124300,192671,1800,830,113,46,14097,Celecoxib,Diclofenac,Gastrointestinal hemorrhage,159,830,TRUE
+1118084,19078461,30753,1108,839,0,0,13404,Celecoxib,Ibuprofen 200 MG Oral Tablet,Esophagitis,0,839,FALSE
+1118084,19078461,192671,1382,827,89,0,13550,Celecoxib,Ibuprofen 200 MG Oral Tablet,Gastrointestinal hemorrhage,89,827,FALSE
+1118084,19078461,4027663,865,772,0,0,13250,Celecoxib,Ibuprofen 200 MG Oral Tablet,Peptic ulcer,0,772,FALSE
+1118084,1124300,30753,1461,768,0,0,14070,Celecoxib,Diclofenac,Esophagitis,0,768,FALSE
+1118084,1124300,4027663,1142,698,0,0,14102.5,Celecoxib,Diclofenac,Peptic ulcer,0,698,FALSE
+1115171,1124300,192671,676,740,0,42,14150.5,Naproxen sodium 220 MG Oral Tablet,Diclofenac,Gastrointestinal hemorrhage,42,676,FALSE
+1115171,1124300,30753,663,685,0,0,14160,Naproxen sodium 220 MG Oral Tablet,Diclofenac,Esophagitis,0,663,FALSE
+19078461,1124300,192671,1009,610,1,37,13310,Ibuprofen 200 MG Oral Tablet,Diclofenac,Gastrointestinal hemorrhage,38,610,FALSE
+19078461,1115171,192671,1049,571,1,0,13377.5,Ibuprofen 200 MG Oral Tablet,Naproxen sodium 220 MG Oral Tablet,Gastrointestinal hemorrhage,1,571,FALSE
+19078461,1115171,30753,1052,571,0,0,13401,Ibuprofen 200 MG Oral Tablet,Naproxen sodium 220 MG Oral Tablet,Esophagitis,0,571,FALSE
+19078461,1124300,30753,1004,561,0,0,13280,Ibuprofen 200 MG Oral Tablet,Diclofenac,Esophagitis,0,561,FALSE
+1115171,1124300,4027663,548,623,2,0,14105,Naproxen sodium 220 MG Oral Tablet,Diclofenac,Peptic ulcer,2,548,FALSE
+19078461,1124300,4027663,885,514,0,0,13100,Ibuprofen 200 MG Oral Tablet,Diclofenac,Peptic ulcer,0,514,FALSE
+1118084,1115171,30753,1283,504,0,0,13980,Celecoxib,Naproxen sodium 220 MG Oral Tablet,Esophagitis,0,504,FALSE
+1118084,1115171,192671,1589,500,100,0,14005,Celecoxib,Naproxen sodium 220 MG Oral Tablet,Gastrointestinal hemorrhage,100,500,FALSE
+19078461,1115171,4027663,932,481,0,2,12809,Ibuprofen 200 MG Oral Tablet,Naproxen sodium 220 MG Oral Tablet,Peptic ulcer,2,481,FALSE
+1118084,1115171,4027663,1010,443,0,2,13979,Celecoxib,Naproxen sodium 220 MG Oral Tablet,Peptic ulcer,2,443,FALSE
