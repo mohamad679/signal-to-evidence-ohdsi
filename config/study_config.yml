@@ -18,14 +18,14 @@ design:
 
 cohorts:
   target:
-    concept_id: null
-    concept_name: null
+    concept_id: 1118084
+    concept_name: Celecoxib
   comparator:
-    concept_id: null
-    concept_name: null
+    concept_id: 1124300
+    concept_name: Diclofenac
   outcome:
-    concept_id: null
-    concept_name: null
+    concept_id: 192671
+    concept_name: Gastrointestinal hemorrhage
 
 feasibility:
   minimum_subjects_per_arm: 100
