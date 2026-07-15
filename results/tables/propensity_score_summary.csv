@@ -1,0 +1,2 @@
+target_before,comparator_before,target_after_trimming,comparator_after_trimming,matched_target_count,matched_comparator_count,matched_pair_count,covariate_count,unbalanced_before_count,unbalanced_after_count,maximum_absolute_smd_before,maximum_absolute_smd_after,balance_threshold
+1800,830,1800,830,830,830,830,314,7,6,0.4829833895488887,0.13054071694703404,0.1

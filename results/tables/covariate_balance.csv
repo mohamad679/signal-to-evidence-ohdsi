@@ -1,0 +1,315 @@
+covariateId,covariateName,analysisId,isBinary,beforeSmd,afterSmd,balanced
+1920,visit_occurrence concept count during day -365 through -1 concept_count relative to index,920,FALSE,0.012197763603021074,0,TRUE
+3006322701,measurement any time prior through -1 days relative to index: Oral temperature,701,TRUE,0.048323630842588165,0.011251057033722827,TRUE
+4052083701,measurement any time prior through -1 days relative to index: Measurement of respiratory function,701,TRUE,-0.0864641205098871,0.010202056878251682,TRUE
+4024958701,measurement any time prior through -1 days relative to index: Throat culture,701,TRUE,0.027186589048086324,0.054997031683215944,TRUE
+3051031701,measurement any time prior through -1 days relative to index: History of Hospitalizations+Outpatient visits Narrative,701,TRUE,0.01564540182346662,0.029833766950490084,TRUE
+46235214701,measurement any time prior through -1 days relative to index: Sexual orientation,701,TRUE,0.01564540182346662,0.029833766950490084,TRUE
+40766240701,measurement any time prior through -1 days relative to index: Are you covered by health insurance or some other kind of health care plan [PhenX],701,TRUE,0.01564540182346662,0.029833766950490084,TRUE
+40758406701,measurement any time prior through -1 days relative to index: HIV status,701,TRUE,0.01564540182346662,0.029833766950490084,TRUE
+3005136701,measurement any time prior through -1 days relative to index: Cladosporium herbarum IgE Ab [Units/volume] in Serum,701,TRUE,0.011040543132995215,0.016330475976826526,TRUE
+3019406701,measurement any time prior through -1 days relative to index: Latex IgE Ab [Units/volume] in Serum,701,TRUE,0.011040543132995215,0.016330475976826526,TRUE
+3015076701,measurement any time prior through -1 days relative to index: Soybean IgE Ab [Units/volume] in Serum,701,TRUE,0.011040543132995215,0.016330475976826526,TRUE
+3006734701,measurement any time prior through -1 days relative to index: White Oak IgE Ab [Units/volume] in Serum,701,TRUE,0.011040543132995215,0.016330475976826526,TRUE
+3000876701,measurement any time prior through -1 days relative to index: Codfish IgE Ab [Units/volume] in Serum,701,TRUE,0.011040543132995215,0.016330475976826526,TRUE
+3006451701,measurement any time prior through -1 days relative to index: Walnut IgE Ab [Units/volume] in Serum,701,TRUE,0.011040543132995215,0.016330475976826526,TRUE
+3014599701,measurement any time prior through -1 days relative to index: Egg white IgE Ab [Units/volume] in Serum,701,TRUE,0.011040543132995215,0.016330475976826526,TRUE
+3027231701,measurement any time prior through -1 days relative to index: Wheat IgE Ab [Units/volume] in Serum,701,TRUE,0.011040543132995215,0.016330475976826526,TRUE
+3036780701,measurement any time prior through -1 days relative to index: American house dust mite IgE Ab [Units/volume] in Serum,701,TRUE,0.011040543132995215,0.016330475976826526,TRUE
+3021226701,measurement any time prior through -1 days relative to index: Shrimp IgE Ab [Units/volume] in Serum,701,TRUE,0.011040543132995215,0.016330475976826526,TRUE
+3012494701,measurement any time prior through -1 days relative to index: Peanut IgE Ab [Units/volume] in Serum,701,TRUE,0.011040543132995215,0.016330475976826526,TRUE
+3001247701,measurement any time prior through -1 days relative to index: Common Ragweed IgE Ab [Units/volume] in Serum,701,TRUE,0.011040543132995215,0.016330475976826526,TRUE
+3023430701,measurement any time prior through -1 days relative to index: Cat dander IgE Ab [Units/volume] in Serum,701,TRUE,0.011040543132995215,0.016330475976826526,TRUE
+3020655701,measurement any time prior through -1 days relative to index: Honey bee IgE Ab [Units/volume] in Serum,701,TRUE,0.011040543132995215,0.016330475976826526,TRUE
+3001488701,measurement any time prior through -1 days relative to index: Cow milk IgE Ab [Units/volume] in Serum,701,TRUE,0.011040543132995215,0.016330475976826526,TRUE
+40769184701,measurement any time prior through -1 days relative to index: Percentage area affected by eczema Upper extremity - bilateral [PhenX],701,TRUE,-0.05136686071365416,-0.02900683916859607,TRUE
+40769194701,measurement any time prior through -1 days relative to index: Percentage area affected by eczema Lower extremity - bilateral [PhenX],701,TRUE,-0.05136686071365416,-0.02900683916859607,TRUE
+40769179701,measurement any time prior through -1 days relative to index: Percentage area affected by eczema Head and Neck [PhenX],701,TRUE,-0.05136686071365416,-0.02900683916859607,TRUE
+40769189701,measurement any time prior through -1 days relative to index: Percentage area affected by eczema Trunk [PhenX],701,TRUE,-0.05136686071365416,-0.02900683916859607,TRUE
+4133840701,measurement any time prior through -1 days relative to index: Spirometry,701,TRUE,-0.08356626705813253,-0.112962014264383,FALSE
+3011505701,measurement any time prior through -1 days relative to index: FEV1/FVC,701,TRUE,-0.08356626705813253,-0.112962014264383,FALSE
+3009542701,measurement any time prior through -1 days relative to index: Hematocrit,701,TRUE,0.04315182186403336,-0.03143084864397734,TRUE
+3000963701,measurement any time prior through -1 days relative to index: Hemoglobin,701,TRUE,0.04315182186403336,-0.03143084864397734,TRUE
+3007461701,measurement any time prior through -1 days relative to index: Platelet count,701,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+3023103701,measurement any time prior through -1 days relative to index: Potassium serum/plasma,701,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+3013682701,measurement any time prior through -1 days relative to index: Urea nitrogen serum/plasma,701,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+3020630701,measurement any time prior through -1 days relative to index: Protein serum/plasma,701,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+3002385701,measurement any time prior through -1 days relative to index: Erythrocyte distribution width [Ratio],701,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+3015632701,measurement any time prior through -1 days relative to index: Carbon dioxide serum/plasma,701,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+3045716701,measurement any time prior through -1 days relative to index: Anion gap serum/plasma,701,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+21494966701,measurement any time prior through -1 days relative to index: Physical findings of Abdomen by Palpation,701,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+3035995701,measurement any time prior through -1 days relative to index: Alkaline phosphatase serum/plasma,701,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+3004501701,measurement any time prior through -1 days relative to index: Glucose lab,701,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+3016723701,measurement any time prior through -1 days relative to index: Creatinine serum/plasma,701,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+3026361701,measurement any time prior through -1 days relative to index: Red blood cell (RBC) count,701,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+3024731701,measurement any time prior through -1 days relative to index: MCV,701,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+3028833701,measurement any time prior through -1 days relative to index: Bilirubin.total [Mass/volume] in Blood,701,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+3024561701,measurement any time prior through -1 days relative to index: Albumin serum/plasma,701,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+3027970701,measurement any time prior through -1 days relative to index: Globulin [Mass/volume] in Serum by calculation,701,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+3013721701,measurement any time prior through -1 days relative to index: Aspartate aminotransferase serum/plasma,701,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+3014576701,measurement any time prior through -1 days relative to index: Chloride serum/plasma,701,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+3006923701,measurement any time prior through -1 days relative to index: Alanine aminotransferase serum/plasma,701,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+3006906701,measurement any time prior through -1 days relative to index: Calcium serum/plasma serum/plasma,701,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+3010813701,measurement any time prior through -1 days relative to index: White Blood cell (WBC) count (leukocyte),701,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+3019550701,measurement any time prior through -1 days relative to index: Sodium serum/plasma,701,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+3049273701,measurement any time prior through -1 days relative to index: DXA Radius and Ulna [T-score] Bone density,701,TRUE,-0.046148008191584204,-0.03234513097547143,TRUE
+40479768101,condition_occurrence any time prior through -1 days relative to index: Injury of anterior cruciate ligament,101,TRUE,0.0012144327657785518,0,TRUE
+4112343101,condition_occurrence any time prior through -1 days relative to index: Acute viral pharyngitis,101,TRUE,0.09398689040644449,0.08755131463641161,TRUE
+28060101,condition_occurrence any time prior through -1 days relative to index: Streptococcal sore throat,101,TRUE,-0.061784131533713885,-0.01936818917226444,TRUE
+4296205101,condition_occurrence any time prior through -1 days relative to index: Second degree burn,101,TRUE,-0.034679924638758776,-0.03744734683244325,TRUE
+260139101,condition_occurrence any time prior through -1 days relative to index: Acute bronchitis,101,TRUE,-0.051418346619365556,0.026677460820961237,TRUE
+4278672101,condition_occurrence any time prior through -1 days relative to index: Fracture of forearm,101,TRUE,-0.008960278665030604,0.013800325484514823,TRUE
+4285898101,condition_occurrence any time prior through -1 days relative to index: Polyp of colon,101,TRUE,0.2924093707595592,-0.03722581500270514,TRUE
+372328101,condition_occurrence any time prior through -1 days relative to index: Otitis media,101,TRUE,-0.0495020318761931,0,TRUE
+81893101,condition_occurrence any time prior through -1 days relative to index: Ulcerative colitis,101,TRUE,0.29675621856453394,-0.039949724574416604,TRUE
+40481087101,condition_occurrence any time prior through -1 days relative to index: Viral sinusitis,101,TRUE,-0.005495871731153273,-0.020187607099088994,TRUE
+81151101,condition_occurrence any time prior through -1 days relative to index: Sprain of ankle,101,TRUE,-0.004727294048369097,0.026970628873433013,TRUE
+4027663101,condition_occurrence any time prior through -1 days relative to index: Peptic ulcer,101,TRUE,0.4829833895488887,0,TRUE
+4237458101,condition_occurrence any time prior through -1 days relative to index: Fracture of clavicle,101,TRUE,0.07663237995210948,0.06784824492916862,TRUE
+4109685101,condition_occurrence any time prior through -1 days relative to index: Laceration of foot,101,TRUE,-0.01594024933937902,-0.01474169214393494,TRUE
+195588101,condition_occurrence any time prior through -1 days relative to index: Cystitis,101,TRUE,-0.019238468459140373,0.004744801581380416,TRUE
+4218389101,condition_occurrence any time prior through -1 days relative to index: Whiplash injury to neck,101,TRUE,-0.06537939850360773,-0.012159683735602767,TRUE
+4059173101,condition_occurrence any time prior through -1 days relative to index: Fracture of ankle,101,TRUE,-0.09384953973943455,0.0309990255552068,TRUE
+378001101,condition_occurrence any time prior through -1 days relative to index: Concussion with no loss of consciousness,101,TRUE,0.06997685125713927,0.037390840567264785,TRUE
+257012101,condition_occurrence any time prior through -1 days relative to index: Chronic sinusitis,101,TRUE,0.029924441028997138,0.038526256255658566,TRUE
+4294548101,condition_occurrence any time prior through -1 days relative to index: Acute bacterial sinusitis,101,TRUE,0.08828870529955167,0.0282196144004516,TRUE
+4048171101,condition_occurrence any time prior through -1 days relative to index: Perennial allergic rhinitis with seasonal variation,101,TRUE,0.09092850897715696,0.1091190492014663,FALSE
+4283893101,condition_occurrence any time prior through -1 days relative to index: Sinusitis,101,TRUE,-3.261584381871089e-5,0.01460338047218532,TRUE
+4029498101,condition_occurrence any time prior through -1 days relative to index: Seizure disorder,101,TRUE,0.028970754493026538,0,TRUE
+4152936101,condition_occurrence any time prior through -1 days relative to index: Laceration of thigh,101,TRUE,0.0017012180991682667,-0.0037930934130538745,TRUE
+4156265101,condition_occurrence any time prior through -1 days relative to index: Facial laceration,101,TRUE,0.024831617142251926,0.05541945467532283,TRUE
+78272101,condition_occurrence any time prior through -1 days relative to index: Sprain of wrist,101,TRUE,-2.200806409090727e-4,-0.0030506170706851984,TRUE
+4001336101,condition_occurrence any time prior through -1 days relative to index: Concussion injury of brain,101,TRUE,-0.040447281144632245,-0.05259314770533446,TRUE
+4132546101,condition_occurrence any time prior through -1 days relative to index: Traumatic brain injury,101,TRUE,-7.902929115220623e-5,0,TRUE
+4051466101,condition_occurrence any time prior through -1 days relative to index: Childhood asthma,101,TRUE,3.2792491557947037e-4,0,TRUE
+40486433101,condition_occurrence any time prior through -1 days relative to index: Perennial allergic rhinitis,101,TRUE,0.06032416345658644,0.06620847108818942,TRUE
+4113008101,condition_occurrence any time prior through -1 days relative to index: Laceration of hand,101,TRUE,-0.010330230285909934,-0.019235536023006147,TRUE
+4310024101,condition_occurrence any time prior through -1 days relative to index: Angiodysplasia of stomach,101,TRUE,0.3602918933439497,0.0468992803266853,TRUE
+4116491101,condition_occurrence any time prior through -1 days relative to index: Escherichia coli urinary tract infection,101,TRUE,0.011065670774359332,0.012645458035874328,TRUE
+4134304101,condition_occurrence any time prior through -1 days relative to index: Fracture subluxation of wrist,101,TRUE,0.00702404567267004,-0.026313093445716525,TRUE
+440086101,condition_occurrence any time prior through -1 days relative to index: Child attention deficit disorder,101,TRUE,-0.01831672005675717,-0.041783256633794584,TRUE
+4230399101,condition_occurrence any time prior through -1 days relative to index: Closed fracture of hip,101,TRUE,0.012878830152503946,0.05086304076973066,TRUE
+4296204101,condition_occurrence any time prior through -1 days relative to index: First degree burn,101,TRUE,-0.01673760225161003,-0.052735154534279564,TRUE
+4155034101,condition_occurrence any time prior through -1 days relative to index: Laceration of forearm,101,TRUE,-0.004093621043109439,0.0074673145257907825,TRUE
+30753101,condition_occurrence any time prior through -1 days relative to index: Esophagitis,101,TRUE,0.3410874276852314,0.06528004826338538,TRUE
+133834101,condition_occurrence any time prior through -1 days relative to index: Atopic dermatitis,101,TRUE,-0.015799721659328962,-0.017012806957667825,TRUE
+4084167101,condition_occurrence any time prior through -1 days relative to index: Acute allergic reaction,101,TRUE,0.026836477587025082,0.024316221747202566,TRUE
+4146173101,condition_occurrence any time prior through -1 days relative to index: Injury of tendon of the rotator cuff of shoulder,101,TRUE,0.021366989530283577,0.025439939973209598,TRUE
+375671101,condition_occurrence any time prior through -1 days relative to index: Concussion with loss of consciousness,101,TRUE,0.033665295869301316,0.0627335248399806,TRUE
+4280726101,condition_occurrence any time prior through -1 days relative to index: Seasonal allergic rhinitis,101,TRUE,0.02998909054726737,0.026352313834736504,TRUE
+134438101,condition_occurrence any time prior through -1 days relative to index: Contact dermatitis,101,TRUE,-0.017122030261316538,0.017186263429801292,TRUE
+440448101,condition_occurrence any time prior through -1 days relative to index: Appendicitis,101,TRUE,0.018508152127176696,0.03416599442570459,TRUE
+4142905101,condition_occurrence any time prior through -1 days relative to index: Fracture of rib,101,TRUE,-0.05402851403891068,-0.08878745226005823,TRUE
+4056621101,condition_occurrence any time prior through -1 days relative to index: Recurrent urinary tract infection,101,TRUE,0.027355850869647067,0.041013239159753107,TRUE
+258780101,condition_occurrence any time prior through -1 days relative to index: Emphysematous bronchitis,101,TRUE,-0.04311536435899025,-0.049341371149144844,TRUE
+4035415101,condition_occurrence any time prior through -1 days relative to index: Tear of meniscus of knee,101,TRUE,-0.02394934940398184,0.023289777610533535,TRUE
+261325101,condition_occurrence any time prior through -1 days relative to index: Pulmonary emphysema,101,TRUE,-0.07199584719606021,-0.10550307756965972,FALSE
+439777101,condition_occurrence any time prior through -1 days relative to index: Anemia,101,TRUE,0.04773721245018112,0,TRUE
+317576101,condition_occurrence any time prior through -1 days relative to index: Coronary arteriosclerosis,101,TRUE,0.04971038000115303,0.035055365469974585,TRUE
+381316101,condition_occurrence any time prior through -1 days relative to index: Cerebrovascular accident,101,TRUE,-0.04484603700118022,-0.08540979350605948,TRUE
+4149245101,condition_occurrence any time prior through -1 days relative to index: Rupture of patellar tendon,101,TRUE,0.043095481081336616,0.010780457220745047,TRUE
+198809101,condition_occurrence any time prior through -1 days relative to index: Acute cholecystitis,101,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+196456101,condition_occurrence any time prior through -1 days relative to index: Gallstone,101,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+4048695101,condition_occurrence any time prior through -1 days relative to index: Fracture of vertebral column without spinal cord injury,101,TRUE,0.013101897915031366,0.018593592822160564,TRUE
+198199101,condition_occurrence any time prior through -1 days relative to index: Pyelonephritis,101,TRUE,0.012197763603021074,-0.04911766724126015,TRUE
+4094814101,condition_occurrence any time prior through -1 days relative to index: Bullet wound,101,TRUE,-0.06374095969473217,-0.06984302957695782,TRUE
+321042101,condition_occurrence any time prior through -1 days relative to index: Cardiac arrest,101,TRUE,-0.020644476605400513,-0.022257973608357958,TRUE
+380378101,condition_occurrence any time prior through -1 days relative to index: Epilepsy,101,TRUE,0.004911981901369711,0,TRUE
+40479422101,condition_occurrence any time prior through -1 days relative to index: Injury of medial collateral ligament of knee,101,TRUE,0.002261776492815811,0.015344716515310669,TRUE
+4166224101,condition_occurrence any time prior through -1 days relative to index: Rupture of appendix,101,TRUE,-0.06518174534593474,-0.06324555320336758,TRUE
+4329847101,condition_occurrence any time prior through -1 days relative to index: Myocardial infarction,101,TRUE,0.07463933708620758,0.04911766724126015,TRUE
+4299128101,condition_occurrence any time prior through -1 days relative to index: Third degree burn,101,TRUE,-0.013832317658179076,-0.016407779788333555,TRUE
+4066995101,condition_occurrence any time prior through -1 days relative to index: Fracture of vertebral column with spinal cord injury,101,TRUE,0.05778319966569876,0.04911766724126015,TRUE
+44782520101,condition_occurrence any time prior through -1 days relative to index: Chronic paralysis due to lesion of spinal cord,101,TRUE,0.05778319966569876,0.04911766724126015,TRUE
+80809101,condition_occurrence any time prior through -1 days relative to index: Rheumatoid arthritis,101,TRUE,0.0352898255354836,0.049162164608599374,TRUE
+317009101,condition_occurrence any time prior through -1 days relative to index: Asthma,101,TRUE,-0.016474483049770287,-0.06950480468569159,TRUE
+1917,observation distinct concept count during day -365 through -1 concept_count relative to index,917,FALSE,-0.030980131072272606,-0.0283695078181321,TRUE
+1905,condition_era distinct concept count during day -365 through -1 concept_count relative to index,905,FALSE,0.23592084265621946,-0.006753279500296209,TRUE
+1922,visit_occurrence concept count during day -30 through -1 concept_count relative to index,922,FALSE,-0.04911766724126015,-0.04911766724126015,TRUE
+3006322704,measurement during day -30 through -1 days relative to index: Oral temperature,704,TRUE,0.017523085940347388,0.04456073527800311,TRUE
+4024958704,measurement during day -30 through -1 days relative to index: Throat culture,704,TRUE,0.024601045516563082,0.0283695078181321,TRUE
+4052083704,measurement during day -30 through -1 days relative to index: Measurement of respiratory function,704,TRUE,-0.05547164517256938,-0.018593592822160564,TRUE
+3020655704,measurement during day -30 through -1 days relative to index: Honey bee IgE Ab [Units/volume] in Serum,704,TRUE,0.03334259645240427,0,TRUE
+3036780704,measurement during day -30 through -1 days relative to index: American house dust mite IgE Ab [Units/volume] in Serum,704,TRUE,0.03334259645240427,0,TRUE
+3023430704,measurement during day -30 through -1 days relative to index: Cat dander IgE Ab [Units/volume] in Serum,704,TRUE,0.03334259645240427,0,TRUE
+3006734704,measurement during day -30 through -1 days relative to index: White Oak IgE Ab [Units/volume] in Serum,704,TRUE,0.03334259645240427,0,TRUE
+3006451704,measurement during day -30 through -1 days relative to index: Walnut IgE Ab [Units/volume] in Serum,704,TRUE,0.03334259645240427,0,TRUE
+3014599704,measurement during day -30 through -1 days relative to index: Egg white IgE Ab [Units/volume] in Serum,704,TRUE,0.03334259645240427,0,TRUE
+3015076704,measurement during day -30 through -1 days relative to index: Soybean IgE Ab [Units/volume] in Serum,704,TRUE,0.03334259645240427,0,TRUE
+3019406704,measurement during day -30 through -1 days relative to index: Latex IgE Ab [Units/volume] in Serum,704,TRUE,0.03334259645240427,0,TRUE
+3005136704,measurement during day -30 through -1 days relative to index: Cladosporium herbarum IgE Ab [Units/volume] in Serum,704,TRUE,0.03334259645240427,0,TRUE
+3027231704,measurement during day -30 through -1 days relative to index: Wheat IgE Ab [Units/volume] in Serum,704,TRUE,0.03334259645240427,0,TRUE
+3001488704,measurement during day -30 through -1 days relative to index: Cow milk IgE Ab [Units/volume] in Serum,704,TRUE,0.03334259645240427,0,TRUE
+3001247704,measurement during day -30 through -1 days relative to index: Common Ragweed IgE Ab [Units/volume] in Serum,704,TRUE,0.03334259645240427,0,TRUE
+3000876704,measurement during day -30 through -1 days relative to index: Codfish IgE Ab [Units/volume] in Serum,704,TRUE,0.03334259645240427,0,TRUE
+3021226704,measurement during day -30 through -1 days relative to index: Shrimp IgE Ab [Units/volume] in Serum,704,TRUE,0.03334259645240427,0,TRUE
+3012494704,measurement during day -30 through -1 days relative to index: Peanut IgE Ab [Units/volume] in Serum,704,TRUE,0.03334259645240427,0,TRUE
+3000963704,measurement during day -30 through -1 days relative to index: Hemoglobin,704,TRUE,-0.021895294817903765,-0.04911766724126015,TRUE
+3009542704,measurement during day -30 through -1 days relative to index: Hematocrit,704,TRUE,-0.021895294817903765,-0.04911766724126015,TRUE
+3011505704,measurement during day -30 through -1 days relative to index: FEV1/FVC,704,TRUE,0.04716666306365781,0.04911766724126015,TRUE
+4133840704,measurement during day -30 through -1 days relative to index: Spirometry,704,TRUE,0.04716666306365781,0.04911766724126015,TRUE
+45766064801,observation any time prior through -1 days relative to index: History of single seizure,801,TRUE,0.028970754493026538,0,TRUE
+439406801,observation any time prior through -1 days relative to index: Allergy to animal dander,801,TRUE,0.03562036904288936,0.053224629541234934,TRUE
+4306014801,observation any time prior through -1 days relative to index: Allergy to tree pollen,801,TRUE,0.02297057642387881,0.025033269418610535,TRUE
+4102123801,observation any time prior through -1 days relative to index: Latex allergy,801,TRUE,0.030066206767365312,0.04947706959952933,TRUE
+4240902801,observation any time prior through -1 days relative to index: Allergy to peanuts,801,TRUE,0.050355802584576254,0.09234735116059203,TRUE
+4304110801,observation any time prior through -1 days relative to index: Allergy to mold,801,TRUE,0.026919390474219523,0.052145610290920706,TRUE
+4048169801,observation any time prior through -1 days relative to index: Allergy to house dust mite,801,TRUE,0.05373223294071886,0.05859183777792632,TRUE
+4302207801,observation any time prior through -1 days relative to index: Allergy to grass pollen,801,TRUE,0.03227141158967629,0.05511782546095502,TRUE
+438614801,observation any time prior through -1 days relative to index: Allergy to nut,801,TRUE,0.01790643034333319,0.011326764456206328,TRUE
+4174876801,observation any time prior through -1 days relative to index: Allergy to bee venom,801,TRUE,0.030066206767365312,0.04038138604823413,TRUE
+4169137801,observation any time prior through -1 days relative to index: Allergy to wheat,801,TRUE,-0.024367775340496098,-0.030925370060239106,TRUE
+433644801,observation any time prior through -1 days relative to index: Shellfish allergy,801,TRUE,0.02947787598064333,0.02669515670328216,TRUE
+37017711801,observation any time prior through -1 days relative to index: Allergy to soy,801,TRUE,0.013101897915031366,0.0492365963917331,TRUE
+4323208801,observation any time prior through -1 days relative to index: History of appendectomy,801,TRUE,0.018508152127176696,0.03416599442570459,TRUE
+4219399801,observation any time prior through -1 days relative to index: Allergy to fish,801,TRUE,0.02756050165721701,-0.038203388663518065,TRUE
+4139681801,observation any time prior through -1 days relative to index: Allergy to dairy product,801,TRUE,-0.014120757689779348,0.02107248759805448,TRUE
+442116801,observation any time prior through -1 days relative to index: Allergy to eggs,801,TRUE,0.06545610288849064,0.06629530720416485,TRUE
+4324181801,observation any time prior through -1 days relative to index: History of cardiac arrest,801,TRUE,-0.020644476605400513,-0.022257973608357958,TRUE
+4163874801,observation any time prior through -1 days relative to index: History of myocardial infarction,801,TRUE,0.07463933708620758,0.04911766724126015,TRUE
+443279801,observation any time prior through -1 days relative to index: Attempted suicide - cut/stab,801,TRUE,-0.04911766724126015,-0.04911766724126015,TRUE
+1115171304,drug_exposure during day -30 through -1 days relative to index: Naproxen sodium 220 MG Oral Tablet,304,TRUE,-0.021895294817903765,0,TRUE
+920300304,drug_exposure during day -30 through -1 days relative to index: Nitrofurantoin 5 MG/ML Oral Suspension,304,TRUE,0.05778319966569876,0.06950480468569159,TRUE
+40236824304,drug_exposure during day -30 through -1 days relative to index: Phenazopyridine hydrochloride 100 MG Oral Tablet,304,TRUE,0.05778319966569876,0.06950480468569159,TRUE
+19008572304,drug_exposure during day -30 through -1 days relative to index: Hydrocortisone 10 MG/ML Topical Cream,304,TRUE,0.03334259645240427,0.04911766724126015,TRUE
+19134077304,"drug_exposure during day -30 through -1 days relative to index: cyclosporine, modified 100 MG [Neoral]",304,TRUE,0.03334259645240427,0.04911766724126015,TRUE
+40213296304,"drug_exposure during day -30 through -1 days relative to index: hepatitis A vaccine, adult dosage",304,TRUE,-0.021892680431567408,0,TRUE
+1127433304,drug_exposure during day -30 through -1 days relative to index: Acetaminophen 325 MG Oral Tablet,304,TRUE,-0.06672801195100225,-0.04456073527800311,TRUE
+40229134304,drug_exposure during day -30 through -1 days relative to index: Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution,304,TRUE,-0.021895294817903765,-0.04911766724126015,TRUE
+19133905304,drug_exposure during day -30 through -1 days relative to index: Penicillin V Potassium 500 MG Oral Tablet,304,TRUE,-0.0027553812081573545,0.0283695078181321,TRUE
+40231925304,drug_exposure during day -30 through -1 days relative to index: Acetaminophen 325 MG / Oxycodone Hydrochloride 5 MG Oral Tablet,304,TRUE,0.03334259645240427,0,TRUE
+40213227304,"drug_exposure during day -30 through -1 days relative to index: tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use",304,TRUE,0.013101897915031366,0.0492365963917331,TRUE
+1713671304,drug_exposure during day -30 through -1 days relative to index: Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet,304,TRUE,-0.021895294817903765,-0.04911766724126015,TRUE
+19078461304,drug_exposure during day -30 through -1 days relative to index: Ibuprofen 200 MG Oral Tablet,304,TRUE,0.04716666306365781,0,TRUE
+19126352304,drug_exposure during day -30 through -1 days relative to index: Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray,304,TRUE,0.03334259645240427,0,TRUE
+1539411304,drug_exposure during day -30 through -1 days relative to index: Simvastatin 20 MG Oral Tablet,304,TRUE,0.03334259645240427,0,TRUE
+1332419304,drug_exposure during day -30 through -1 days relative to index: Amlodipine 5 MG Oral Tablet,304,TRUE,0.03334259645240427,0,TRUE
+19075601304,drug_exposure during day -30 through -1 days relative to index: clopidogrel 75 MG Oral Tablet,304,TRUE,0.03334259645240427,0,TRUE
+1551192304,drug_exposure during day -30 through -1 days relative to index: Prednisone 5 MG Oral Tablet,304,TRUE,0.03334259645240427,0,TRUE
+19075001304,drug_exposure during day -30 through -1 days relative to index: Cefuroxime 250 MG Oral Tablet,304,TRUE,0.03334259645240427,0,TRUE
+40165015304,drug_exposure during day -30 through -1 days relative to index: Meperidine Hydrochloride 50 MG Oral Tablet,304,TRUE,-0.04911766724126015,-0.04911766724126015,TRUE
+19073188304,drug_exposure during day -30 through -1 days relative to index: Amoxicillin 500 MG Oral Tablet,304,TRUE,-0.04911766724126015,-0.04911766724126015,TRUE
+9201925,visit_occurrence concept count during day -30 through -1 concept_count relative to index: Inpatient Visit,925,FALSE,-0.04911766724126015,-0.04911766724126015,TRUE
+1908,drug_era distinct concept count during day -365 through -1 concept_count relative to index,908,FALSE,-0.006605240970902173,-0.003551328045480824,TRUE
+8507001,gender = MALE,1,TRUE,0.04155069919451142,0.009647745590528035,TRUE
+8532001,gender = FEMALE,1,TRUE,-0.04155069919451142,-0.009647745590527813,TRUE
+9201923,visit_occurrence concept count during day -365 through -1 concept_count relative to index: Inpatient Visit,923,FALSE,0.012197763603021074,0,TRUE
+1002,age in years,2,FALSE,0.02127292182823613,0.041848355330460614,TRUE
+1914,measurement distinct concept count during day -365 through -1 concept_count relative to index,914,FALSE,0.03921147396873244,0.009117729133458638,TRUE
+4218389104,condition_occurrence during day -30 through -1 days relative to index: Whiplash injury to neck,104,TRUE,0.03334259645240427,0.04911766724126015,TRUE
+4112343104,condition_occurrence during day -30 through -1 days relative to index: Acute viral pharyngitis,104,TRUE,0.02115837916943353,0.034799716731458714,TRUE
+4285898104,condition_occurrence during day -30 through -1 days relative to index: Polyp of colon,104,TRUE,0.030066206767365312,-0.0636929755298482,TRUE
+4152936104,condition_occurrence during day -30 through -1 days relative to index: Laceration of thigh,104,TRUE,0.03334259645240427,0.04911766724126015,TRUE
+260139104,condition_occurrence during day -30 through -1 days relative to index: Acute bronchitis,104,TRUE,-0.0758091217207835,-0.062310133834327715,TRUE
+4283893104,condition_occurrence during day -30 through -1 days relative to index: Sinusitis,104,TRUE,0.04716666306365781,0,TRUE
+28060104,condition_occurrence during day -30 through -1 days relative to index: Streptococcal sore throat,104,TRUE,-0.0027553812081573545,0.0283695078181321,TRUE
+40481087104,condition_occurrence during day -30 through -1 days relative to index: Viral sinusitis,104,TRUE,-0.013747379906013867,-0.08210523768480557,TRUE
+4294548104,condition_occurrence during day -30 through -1 days relative to index: Acute bacterial sinusitis,104,TRUE,0.04716666306365781,0.04911766724126015,TRUE
+4134304104,condition_occurrence during day -30 through -1 days relative to index: Fracture subluxation of wrist,104,TRUE,0.03334259645240427,0,TRUE
+40479422104,condition_occurrence during day -30 through -1 days relative to index: Injury of medial collateral ligament of knee,104,TRUE,0.03334259645240427,0,TRUE
+195588104,condition_occurrence during day -30 through -1 days relative to index: Cystitis,104,TRUE,0.03334259645240427,0,TRUE
+439777104,condition_occurrence during day -30 through -1 days relative to index: Anemia,104,TRUE,-0.021895294817903765,-0.04911766724126015,TRUE
+317576104,condition_occurrence during day -30 through -1 days relative to index: Coronary arteriosclerosis,104,TRUE,0.03334259645240427,0,TRUE
+4084167104,condition_occurrence during day -30 through -1 days relative to index: Acute allergic reaction,104,TRUE,0.03334259645240427,0,TRUE
+372328104,condition_occurrence during day -30 through -1 days relative to index: Otitis media,104,TRUE,0.03334259645240427,0,TRUE
+378001104,condition_occurrence during day -30 through -1 days relative to index: Concussion with no loss of consciousness,104,TRUE,-0.04911766724126015,-0.04911766724126015,TRUE
+257012104,condition_occurrence during day -30 through -1 days relative to index: Chronic sinusitis,104,TRUE,-0.04911766724126015,-0.04911766724126015,TRUE
+4035415104,condition_occurrence during day -30 through -1 days relative to index: Tear of meniscus of knee,104,TRUE,-0.04911766724126015,-0.04911766724126015,TRUE
+375671104,condition_occurrence during day -30 through -1 days relative to index: Concussion with loss of consciousness,104,TRUE,-0.04911766724126015,-0.04911766724126015,TRUE
+4116491104,condition_occurrence during day -30 through -1 days relative to index: Escherichia coli urinary tract infection,104,TRUE,-0.04911766724126015,-0.04911766724126015,TRUE
+4296205104,condition_occurrence during day -30 through -1 days relative to index: Second degree burn,104,TRUE,-0.04911766724126015,-0.04911766724126015,TRUE
+1127078301,drug_exposure any time prior through -1 days relative to index: Acetaminophen 160 MG Oral Tablet,301,TRUE,0.012383486859311019,0.026547405406286098,TRUE
+19059056301,drug_exposure any time prior through -1 days relative to index: Aspirin 81 MG Oral Tablet,301,TRUE,-0.07371229193576026,0.025003617683254598,TRUE
+19133873301,drug_exposure any time prior through -1 days relative to index: Penicillin V Potassium 250 MG Oral Tablet,301,TRUE,-0.07195361760472889,-0.012049119796655967,TRUE
+1713671301,drug_exposure any time prior through -1 days relative to index: Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet,301,TRUE,0.008158117673710366,-0.019748030415394482,TRUE
+1127433301,drug_exposure any time prior through -1 days relative to index: Acetaminophen 325 MG Oral Tablet,301,TRUE,-0.04069647480070786,0.01642256985597127,TRUE
+19078461301,drug_exposure any time prior through -1 days relative to index: Ibuprofen 200 MG Oral Tablet,301,TRUE,-0.07602917318814176,-0.13054071694703404,FALSE
+40231925301,drug_exposure any time prior through -1 days relative to index: Acetaminophen 325 MG / Oxycodone Hydrochloride 5 MG Oral Tablet,301,TRUE,0.010378893600758995,-0.009377381278064178,TRUE
+19129655301,drug_exposure any time prior through -1 days relative to index: Ampicillin 100 MG/ML Injectable Solution,301,TRUE,-0.10452200820290938,0.015326574986414161,TRUE
+19074841301,drug_exposure any time prior through -1 days relative to index: 12 HR Cefaclor 500 MG Extended Release Oral Tablet,301,TRUE,-0.014914019762219847,-0.0194074169913194,TRUE
+40213160301,"drug_exposure any time prior through -1 days relative to index: poliovirus vaccine, inactivated",301,TRUE,0.013633162619653725,0.008833449688898765,TRUE
+920334301,"drug_exposure any time prior through -1 days relative to index: NITROFURANTOIN, MACROCRYSTALS 50 MG Oral Capsule",301,TRUE,-0.027748946641235357,-0.014680505487867595,TRUE
+40236824301,drug_exposure any time prior through -1 days relative to index: Phenazopyridine hydrochloride 100 MG Oral Tablet,301,TRUE,0.010866303296196792,0.017343086127329436,TRUE
+920300301,drug_exposure any time prior through -1 days relative to index: Nitrofurantoin 5 MG/ML Oral Suspension,301,TRUE,0.010866303296196792,0.017343086127329436,TRUE
+40229134301,drug_exposure any time prior through -1 days relative to index: Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution,301,TRUE,0.029512393583837553,0.027223678284220846,TRUE
+40165015301,drug_exposure any time prior through -1 days relative to index: Meperidine Hydrochloride 50 MG Oral Tablet,301,TRUE,0.01573709749574417,0,TRUE
+19112599301,drug_exposure any time prior through -1 days relative to index: Chlorpheniramine Maleate 2 MG/ML Oral Solution,301,TRUE,0.03584442551863668,0.04604499259155315,TRUE
+40213227301,"drug_exposure any time prior through -1 days relative to index: tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use",301,TRUE,-0.02465898171436879,0.0148613221385421,TRUE
+40213306301,"drug_exposure any time prior through -1 days relative to index: hepatitis B vaccine, adult dosage",301,TRUE,0.007540265071158444,0.019475849400635847,TRUE
+40213296301,"drug_exposure any time prior through -1 days relative to index: hepatitis A vaccine, adult dosage",301,TRUE,0.01364764062328577,0.052001507885654705,TRUE
+1115171301,drug_exposure any time prior through -1 days relative to index: Naproxen sodium 220 MG Oral Tablet,301,TRUE,0.02778073291689084,0.030418470836507516,TRUE
+19115351301,drug_exposure any time prior through -1 days relative to index: Diazepam 5 MG [Valium],301,TRUE,-0.006947911884478854,-0.027590946136973042,TRUE
+19128065301,drug_exposure any time prior through -1 days relative to index: {7 (Inert Ingredients 1 MG Oral Tablet) / 21 (Mestranol 0.05 MG / Norethindrone 1 MG Oral Tablet) } Pack [Norinyl 1+50 28 Day],301,TRUE,-0.0437144504900502,0.02257753061370477,TRUE
+46233988301,drug_exposure any time prior through -1 days relative to index: Doxycycline Monohydrate 50 MG Oral Tablet,301,TRUE,0.007200668715193771,0.04997598952838498,TRUE
+19128022301,drug_exposure any time prior through -1 days relative to index: {7 (Ethinyl Estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (Ethinyl Estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (Ethinyl Estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (Inert Ingredients 1 MG Oral Tablet) } Pack [Or,301,TRUE,6.767238349683216e-4,0.012495607784821557,TRUE
+40232448301,drug_exposure any time prior through -1 days relative to index: Diphenhydramine Hydrochloride 25 MG Oral Tablet,301,TRUE,0.08001114597176082,0.0946857622917944,TRUE
+19073183301,drug_exposure any time prior through -1 days relative to index: Amoxicillin 250 MG Oral Capsule,301,TRUE,0.021606911792030007,0.027643089885960523,TRUE
+40169216301,drug_exposure any time prior through -1 days relative to index: 120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler,301,TRUE,-0.0036165207038966894,-0.012910213452940071,TRUE
+1154615301,drug_exposure any time prior through -1 days relative to index: 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler,301,TRUE,-0.0036165207038966894,-0.012910213452940071,TRUE
+40213251301,drug_exposure any time prior through -1 days relative to index: varicella virus vaccine,301,TRUE,-0.01207496608395837,-0.051063829787234054,TRUE
+40213314301,"drug_exposure any time prior through -1 days relative to index: Haemophilus influenzae type b vaccine, PRP-OMP conjugate",301,TRUE,0.04987306056781672,0.04679817056423595,TRUE
+19133905301,drug_exposure any time prior through -1 days relative to index: Penicillin V Potassium 500 MG Oral Tablet,301,TRUE,0.027136622267669046,0.009506221679578156,TRUE
+46233710301,drug_exposure any time prior through -1 days relative to index: Doxycycline Monohydrate 100 MG Oral Tablet,301,TRUE,-0.07503169751101245,-0.1123846975443873,FALSE
+19074679301,drug_exposure any time prior through -1 days relative to index: Carbamazepine 20 MG/ML Oral Suspension [Tegretol],301,TRUE,0.019325595303267138,0.01030736144060147,TRUE
+19006318301,drug_exposure any time prior through -1 days relative to index: Penicillin G 375 MG/ML Injectable Solution,301,TRUE,-0.0012256784660613668,-0.028714216569479614,TRUE
+19008572301,drug_exposure any time prior through -1 days relative to index: Hydrocortisone 10 MG/ML Topical Cream,301,TRUE,-0.057496636106053295,-0.035494260376644556,TRUE
+1551192301,drug_exposure any time prior through -1 days relative to index: Prednisone 5 MG Oral Tablet,301,TRUE,0.026836477587025082,0.024316221747202566,TRUE
+40162522301,drug_exposure any time prior through -1 days relative to index: Acetaminophen 325 MG / Hydrocodone Bitartrate 7.5 MG Oral Tablet,301,TRUE,0.038174915398551224,0.06122105744890538,TRUE
+19134077301,"drug_exposure any time prior through -1 days relative to index: cyclosporine, modified 100 MG [Neoral]",301,TRUE,-0.05547164517256938,-0.04016096644512494,TRUE
+40236446301,drug_exposure any time prior through -1 days relative to index: Methylphenidate Hydrochloride 20 MG Oral Tablet,301,TRUE,0.020826187675045533,0.030692143193530606,TRUE
+19019979301,drug_exposure any time prior through -1 days relative to index: Ibuprofen 100 MG Oral Tablet,301,TRUE,-0.02575613920013149,-0.01565416854098847,TRUE
+1150771301,drug_exposure any time prior through -1 days relative to index: Astemizole 10 MG Oral Tablet,301,TRUE,0.03905075185757911,0.028446883254632495,TRUE
+40169281301,drug_exposure any time prior through -1 days relative to index: 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler,301,TRUE,-0.03661010836100402,-0.05428586200254655,TRUE
+19073188301,drug_exposure any time prior through -1 days relative to index: Amoxicillin 500 MG Oral Tablet,301,TRUE,0.02216390170568054,0.006305353231644341,TRUE
+964261301,drug_exposure any time prior through -1 days relative to index: Vitamin B 12 5 MG/ML Injectable Solution,301,TRUE,0.03482367315947379,0,TRUE
+19075601301,drug_exposure any time prior through -1 days relative to index: clopidogrel 75 MG Oral Tablet,301,TRUE,0.016269919787802296,0,TRUE
+19126352301,drug_exposure any time prior through -1 days relative to index: Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray,301,TRUE,0.04971038000115303,0.035055365469974585,TRUE
+1332419301,drug_exposure any time prior through -1 days relative to index: Amlodipine 5 MG Oral Tablet,301,TRUE,0.06519266372144578,0.049341371149144844,TRUE
+1539411301,drug_exposure any time prior through -1 days relative to index: Simvastatin 20 MG Oral Tablet,301,TRUE,0.05001282449238888,0.03234513097547143,TRUE
+43012754301,drug_exposure any time prior through -1 days relative to index: Levonorgestrel 0.00354 MG/HR Drug Implant,301,TRUE,-0.013961033458579325,-0.024665056639128293,TRUE
+19129144301,drug_exposure any time prior through -1 days relative to index: {28 (Norethindrone 0.35 MG Oral Tablet) } Pack [Jolivette 28 Day],301,TRUE,-0.0047780117366414115,0.018593592822160564,TRUE
+19127922301,drug_exposure any time prior through -1 days relative to index: {28 (Norethindrone 0.35 MG Oral Tablet) } Pack [Camila 28 Day],301,TRUE,-0.023323059754240247,0,TRUE
+40220960301,drug_exposure any time prior through -1 days relative to index: alteplase 100 MG Injection,301,TRUE,-0.021892680431567408,-0.05580007309814364,TRUE
+19075001301,drug_exposure any time prior through -1 days relative to index: Cefuroxime 250 MG Oral Tablet,301,TRUE,-0.04948914763674634,-0.06990726178037912,TRUE
+40224805301,drug_exposure any time prior through -1 days relative to index: 1 ML medroxyprogesterone acetate 150 MG/ML Injection,301,TRUE,-0.03295914853379204,-0.037430612980434465,TRUE
+40213180301,"drug_exposure any time prior through -1 days relative to index: meningococcal polysaccharide (groups A, C, Y and W-135) diphtheria toxoid conjugate vaccine (MCV4P)",301,TRUE,0.03241601426384666,0.03590690635023349,TRUE
+782047301,drug_exposure any time prior through -1 days relative to index: Isoflurane 999 MG/ML Inhalant Solution,301,TRUE,0.008092404687003063,-0.05580007309814364,TRUE
+19078924301,drug_exposure any time prior through -1 days relative to index: Midazolam 1 MG/ML Injectable Solution,301,TRUE,0.024368620184988088,-0.0492365963917331,TRUE
+35605858301,drug_exposure any time prior through -1 days relative to index: 1 ML Morphine Sulfate 5 MG/ML Injection,301,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+19079524301,drug_exposure any time prior through -1 days relative to index: Sodium Chloride 9 MG/ML Injectable Solution,301,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+1367571301,drug_exposure any time prior through -1 days relative to index: heparin,301,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+35605482301,drug_exposure any time prior through -1 days relative to index: 2 ML Ondansetron 2 MG/ML Injection,301,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+40220386301,drug_exposure any time prior through -1 days relative to index: 100 ML Propofol 10 MG/ML Injection,301,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+42707627301,drug_exposure any time prior through -1 days relative to index: rocuronium bromide 10 MG/ML Injectable Solution,301,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+46275444301,drug_exposure any time prior through -1 days relative to index: Piperacillin 4000 MG / tazobactam 500 MG Injection,301,TRUE,0.01073830632629884,-0.062310133834327715,TRUE
+19016749301,drug_exposure any time prior through -1 days relative to index: remifentanil,301,TRUE,0.02115837916943353,-0.08517710406460133,TRUE
+42902245301,drug_exposure any time prior through -1 days relative to index: {5 (Ethinyl Estradiol 0.02 MG / norethindrone acetate 1 MG Oral Tablet) / 7 (Ethinyl Estradiol 0.03 MG / norethindrone acetate 1 MG Oral Tablet) / 9 (Ethinyl Estradiol 0.035 MG / norethindrone acetate 1 MG Oral Tablet) / 7 (Ferrous fumarate 75 MG Oral Tab,301,TRUE,-0.052598782051073475,-0.033090639444317706,TRUE
+19074843301,drug_exposure any time prior through -1 days relative to index: Cefaclor 250 MG Oral Capsule,301,TRUE,-0.013386439099058142,-0.03882097563974565,TRUE
+40243436301,drug_exposure any time prior through -1 days relative to index: 1 ML Atropine Sulfate 1 MG/ML Injection,301,TRUE,-0.020644476605400513,-0.022257973608357958,TRUE
+46275916301,drug_exposure any time prior through -1 days relative to index: 1 ML Epinephrine 1 MG/ML Injection,301,TRUE,-0.020644476605400513,-0.022257973608357958,TRUE
+1310034301,drug_exposure any time prior through -1 days relative to index: 3 ML Amiodarone hydrochloride 50 MG/ML Prefilled Syringe,301,TRUE,-0.008299421162040034,-0.016543621518032826,TRUE
+1150837301,drug_exposure any time prior through -1 days relative to index: Terfenadine 60 MG Oral Tablet,301,TRUE,-0.05547164517256938,-0.06599386285611832,TRUE
+1545959301,drug_exposure any time prior through -1 days relative to index: atorvastatin 80 MG Oral Tablet,301,TRUE,0.04716666306365781,0.04911766724126015,TRUE
+19133768301,drug_exposure any time prior through -1 days relative to index: Acetaminophen 750 MG / Hydrocodone Bitartrate 7.5 MG Oral Tablet,301,TRUE,0.07463933708620758,0.04911766724126015,TRUE
+19023423301,drug_exposure any time prior through -1 days relative to index: desflurane 990 MG/ML Inhalant Solution,301,TRUE,0.07463933708620758,0.04911766724126015,TRUE
+19132304301,drug_exposure any time prior through -1 days relative to index: Levonorgestrel 0.000833 MG/HR Intrauterine System [Mirena],301,TRUE,-0.016474483049770287,-0.0283695078181321,TRUE
+1594382301,drug_exposure any time prior through -1 days relative to index: NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector,301,TRUE,-0.05186453816881091,-0.03234513097547143,TRUE
+43012036301,drug_exposure any time prior through -1 days relative to index: Chlorpheniramine Maleate 4 MG Oral Tablet,301,TRUE,-0.0027553812081573545,-0.04911766724126015,TRUE
+19127904301,drug_exposure any time prior through -1 days relative to index: {24 (drospirenone 3 MG / Ethinyl Estradiol 0.02 MG Oral Tablet) / 4 (Inert Ingredients 1 MG Oral Tablet) } Pack [Yaz 28 Day],301,TRUE,-0.05157829744058882,-0.049162164608599374,TRUE
+1154029301,drug_exposure any time prior through -1 days relative to index: Fentanyl,301,TRUE,0.012197763603021074,0.0283695078181321,TRUE
+19019273301,drug_exposure any time prior through -1 days relative to index: Naproxen 500 MG Oral Tablet,301,TRUE,0.0352898255354836,0.049162164608599374,TRUE
+19007333301,drug_exposure any time prior through -1 days relative to index: Methotrexate 10 MG Oral Tablet,301,TRUE,-0.0027553812081573545,0,TRUE
+19089061301,drug_exposure any time prior through -1 days relative to index: Prednisone 2.5 MG [Deltasone],301,TRUE,0.05778319966569876,0.06950480468569159,TRUE
+19078219301,drug_exposure any time prior through -1 days relative to index: Sufentanil,301,TRUE,0.012197763603021074,0,TRUE
+1107882301,drug_exposure any time prior through -1 days relative to index: Loratadine 10 MG Oral Tablet,301,TRUE,-0.01482364802998342,-0.021987316976102154,TRUE
+19077344301,drug_exposure any time prior through -1 days relative to index: ferrous sulfate 325 MG Oral Tablet,301,TRUE,0.04716666306365781,0.04911766724126015,TRUE
+19059528301,drug_exposure any time prior through -1 days relative to index: Alfentanil,301,TRUE,-0.030980131072272606,-0.06950480468569159,TRUE
+1519937301,drug_exposure any time prior through -1 days relative to index: Etonogestrel 68 MG Drug Implant,301,TRUE,0.012197763603021074,0.0283695078181321,TRUE
+19128263301,drug_exposure any time prior through -1 days relative to index: {7 (Ethinyl Estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (Ethinyl Estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (Ethinyl Estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (Inert Ingredients 1 MG Oral Tablet) } Pack [Tr,301,TRUE,-0.03796177878689747,-0.021987316976102154,TRUE
+19128009301,drug_exposure any time prior through -1 days relative to index: {7 (Ethinyl Estradiol 0.01 MG Oral Tablet) / 84 (Ethinyl Estradiol 0.03 MG / Levonorgestrel 0.15 MG Oral Tablet) } Pack [Seasonique],301,TRUE,0.06674086442659999,0.06950480468569159,TRUE
+40223834301,drug_exposure any time prior through -1 days relative to index: Fexofenadine hydrochloride 60 MG Oral Tablet,301,TRUE,-0.05935687737437838,-0.034799716731458714,TRUE
+40228214301,drug_exposure any time prior through -1 days relative to index: cetirizine hydrochloride 10 MG Oral Tablet,301,TRUE,-0.04820209134739506,-0.06950480468569159,TRUE
+43012433301,drug_exposure any time prior through -1 days relative to index: 21 DAY Ethinyl Estradiol 0.000625 MG/HR / Etonogestrel 0.005 MG/HR Vaginal Ring [NuvaRing],301,TRUE,0.04716666306365781,0.04911766724126015,TRUE
+19023398301,drug_exposure any time prior through -1 days relative to index: sevoflurane 1000 MG/ML Inhalant Solution,301,TRUE,-0.06950480468569159,-0.06950480468569159,TRUE
+44816277301,drug_exposure any time prior through -1 days relative to index: 168 HR Ethinyl Estradiol 0.00146 MG/HR / norelgestromin 0.00625 MG/HR Transdermal System,301,TRUE,-0.04911766724126015,-0.04911766724126015,TRUE
+19057271301,drug_exposure any time prior through -1 days relative to index: Lorazepam 2 MG/ML Injectable Solution,301,TRUE,-0.04911766724126015,-0.04911766724126015,TRUE
