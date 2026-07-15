@@ -148,11 +148,11 @@ P-values are not used to assess covariate balance.
 
 ## 16. Outcome model
 
-The primary outcome model is logistic regression for a binary gastrointestinal hemorrhage outcome
-during the fixed day 1 through day 30 risk window. The model will use uncertainty estimation
-appropriate for the matched design, accounting for matched-set dependence. The reported measure
-will be labeled as an adjusted observational association, with its confidence interval and the
-numbers of subjects and events analyzed.
+The primary outcome model is logistic regression for a binary gastrointestinal hemorrhage outcome during the fixed day 1 through day 30 risk window.
+The treatment coefficient will be exponentiated and reported as an odds ratio.
+Uncertainty will be estimated using a matched-set cluster-robust sandwich variance with match identifier as the clustering unit and the finite-sample CR1 correction.
+A two-sided 95% Wald confidence interval will be reported with the numbers of subjects and events analyzed.
+The result will be labeled as an adjusted observational association under the stated design assumptions and will not be interpreted as causal.
 
 ## 17. Subgroup analyses
 
