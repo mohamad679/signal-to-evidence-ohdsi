@@ -1,0 +1,85 @@
+---
+title: "Executive Summary"
+subtitle: "Reproducible OHDSI methodological demonstration"
+bibliography: references.bib
+---
+
+```{r}
+source("R/plots.R", local = FALSE)
+reporting_inputs <- validate_reporting_inputs(".")
+primary <- reporting_inputs$outcome_analysis_summary
+subgroups <- reporting_inputs$subgroup_analysis_summary
+sensitivity <- reporting_inputs$sensitivity_analysis_summary
+propensity <- reporting_inputs$propensity_score_summary
+```
+
+## Study question
+
+This synthetic-data demonstration compares new use of Celecoxib with new use of
+Diclofenac for gastrointestinal hemorrhage during days 1 through 30 after
+treatment initiation.
+
+> Adjusted observational association under the stated design assumptions.
+
+This is not clinical evidence, regulatory evidence, or a drug-safety conclusion.
+
+## Main result
+
+The matched ATT analysis included
+`r format(primary$targetSubjectCount[[1L]], big.mark = ",")` Celecoxib initiators
+and
+`r format(primary$comparatorSubjectCount[[1L]], big.mark = ",")` Diclofenac
+initiators, with `r primary$eventCount[[1L]]` total events.
+
+The odds ratio was
+`r format_estimate_ci(primary$estimate[[1L]], primary$ciLower[[1L]], primary$ciUpper[[1L]])`
+using `r primary$varianceEstimator[[1L]]`.
+
+The confidence interval includes 1.0. The result is not interpreted as benefit,
+harm, equivalence, safety, or absence of an association.
+
+## Diagnostics
+
+```{r}
+diagnostic_table <- data.frame(
+  Diagnostic = c(
+    "Matched pairs",
+    "Covariates evaluated",
+    "Residual imbalances",
+    "Maximum absolute SMD after matching",
+    "Balance threshold"
+  ),
+  Value = c(
+    propensity$matched_pair_count[[1L]],
+    propensity$covariate_count[[1L]],
+    propensity$unbalanced_after_count[[1L]],
+    sprintf("%.3f", propensity$maximum_absolute_smd_after[[1L]]),
+    sprintf("%.1f", propensity$balance_threshold[[1L]])
+  ),
+  check.names = FALSE
+)
+knitr::kable(diagnostic_table)
+```
+
+Residual imbalance remained after matching; adjustment is not treated as proof
+that confounding was removed.
+
+## Prespecified additional analyses
+
+All five sensitivity scenarios are retained. Their odds-ratio range was
+`r sprintf("%.2f", min(sensitivity$estimate))` to
+`r sprintf("%.2f", max(sensitivity$estimate))`, with no scenario selected as
+preferred after reviewing the results.
+
+The age subgroup `>=65` was `NOT_ESTIMABLE` because no subjects were available.
+This result is reported rather than suppressed or replaced.
+
+## Limitations
+
+Eunomia is synthetic or sample data. Residual and unmeasured confounding,
+misclassification, incomplete observation, limited overlap, sparse outcomes,
+missing data, and model instability remain possible. The short fixed risk
+window and binary logistic model restrict interpretation.
+
+The report uses only aggregate artifacts, does not access a database, and does
+not recompute the study estimates.
