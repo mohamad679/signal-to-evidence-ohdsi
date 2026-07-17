@@ -10,6 +10,8 @@ Authors@R: person(
 Description: A reproducible methodological OHDSI/OMOP demonstration using
     Eunomia sample data.
 License: MIT
+URL: https://github.com/mohamad679/signal-to-evidence-ohdsi
+BugReports: https://github.com/mohamad679/signal-to-evidence-ohdsi/issues
 Encoding: UTF-8
 Depends:
     R (>= 4.0.0)

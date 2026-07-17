@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - reports/index.qmd
+    - reports/executive_summary.qmd
+  execute-dir: project
+
+website:
+  title: "Signal to Evidence OHDSI"
+  navbar:
+    left:
+      - href: reports/index.qmd
+        text: Study report
+      - href: reports/executive_summary.qmd
+        text: Executive summary
+
+format:
+  html:
+    toc: true
+    embed-resources: true
+    code-fold: true
+    code-tools: true
+
+execute:
+  echo: false
+  warning: false
+  error: true
+  freeze: false

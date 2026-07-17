@@ -1,0 +1,19 @@
+cff-version: "1.2.0"
+message: "If you use this software demonstration, please cite it."
+title: "Signal to Evidence OHDSI Demonstration"
+type: software
+authors:
+  - family-names: "Asgari"
+    given-names: "Mohammad"
+version: "0.1.0"
+repository-code: "https://github.com/mohamad679/signal-to-evidence-ohdsi"
+license: "MIT"
+abstract: >-
+  A reproducible methodological OHDSI/OMOP demonstration using Eunomia
+  sample data, aggregate reporting, and prespecified validation gates.
+keywords:
+  - "OHDSI"
+  - "OMOP"
+  - "observational research"
+  - "reproducibility"
+  - "Eunomia"

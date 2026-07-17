@@ -98,7 +98,7 @@ validate_baseline_covariate_settings <- function(covariate_settings) {
     "shortTermStartDays"
   )) {
     if (is.null(covariate_settings[[start_field]]) ||
-        is.null(covariate_settings$endDays)) {
+          is.null(covariate_settings$endDays)) {
       cli::cli_abort(
         "{.arg covariate_settings} is missing required baseline windows.",
         class = "covariate_argument_error"
@@ -132,12 +132,12 @@ validate_baseline_covariate_settings <- function(covariate_settings) {
     logical(1L)
   )
   if (!identical(
-        attr(covariate_settings, "fun", exact = TRUE),
-        "getDbDefaultCovariateData"
-      ) ||
-      any(enabled_prohibited_settings) ||
-      isTRUE(covariate_settings$temporal) ||
-      isTRUE(covariate_settings$temporalSequence)) {
+    attr(covariate_settings, "fun", exact = TRUE),
+    "getDbDefaultCovariateData"
+  ) ||
+    any(enabled_prohibited_settings) ||
+    isTRUE(covariate_settings$temporal) ||
+    isTRUE(covariate_settings$temporalSequence)) {
     cli::cli_abort(
       paste0(
         "{.arg covariate_settings} must use standard prespecified extraction, ",
@@ -574,10 +574,10 @@ validate_covariate_output_path <- function(
     canonical_directory
   )
   if (!is_below_allowed_directory ||
-      !identical(
-        as.character(canonical_path),
-        as.character(canonical_expected_path)
-      )) {
+    !identical(
+      as.character(canonical_path),
+      as.character(canonical_expected_path)
+    )) {
     cli::cli_abort(
       "{.arg path} must be the prescribed project output path.",
       class = "covariate_output_error"

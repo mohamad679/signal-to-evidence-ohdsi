@@ -1,0 +1,241 @@
+---
+title: "Signal to Evidence: Reproducible OHDSI Study Report"
+subtitle: "Celecoxib versus Diclofenac and 30-day gastrointestinal hemorrhage"
+bibliography: references.bib
+---
+
+```{r}
+source("R/plots.R", local = FALSE)
+reporting_inputs <- validate_reporting_inputs(".")
+primary <- reporting_inputs$outcome_analysis_summary
+subgroups <- reporting_inputs$subgroup_analysis_summary
+sensitivity <- reporting_inputs$sensitivity_analysis_summary
+propensity <- reporting_inputs$propensity_score_summary
+cohorts <- reporting_inputs$cohort_counts
+effect_plot_data <- prepare_effect_estimate_plot_data(reporting_inputs)
+balance_plot_data <- prepare_balance_plot_data(reporting_inputs)
+```
+
+## Scope and interpretation
+
+This report is a reproducible methodological demonstration using aggregate Eunomia
+OMOP outputs. It is not clinical evidence, regulatory evidence, or a drug-safety
+conclusion.
+
+> Adjusted observational association under the stated design assumptions.
+
+The report does not make a causal claim and does not describe either treatment as
+safe or unsafe.
+
+## Frozen study design
+
+```{r}
+design_table <- data.frame(
+  Element = c(
+    "Target",
+    "Comparator",
+    "Outcome",
+    "Primary risk window",
+    "Estimand",
+    "Adjustment",
+    "Effect measure",
+    "Uncertainty"
+  ),
+  Specification = c(
+    "Celecoxib",
+    "Diclofenac",
+    "Gastrointestinal hemorrhage",
+    "Day 1 through day 30 after index",
+    "ATT",
+    "1:1 propensity-score matching with 5% preference-score trimming",
+    "Odds ratio",
+    "Matched-set cluster-robust CR1 with a 95% Wald confidence interval"
+  ),
+  check.names = FALSE
+)
+knitr::kable(design_table)
+```
+
+## Cohort construction
+
+```{r}
+cohort_display <- data.frame(
+  Group = c("Celecoxib", "Diclofenac", "Outcome cohort"),
+  Subjects = c(
+    cohorts$target_subject_count[[1L]],
+    cohorts$comparator_subject_count[[1L]],
+    cohorts$outcome_subject_count[[1L]]
+  ),
+  Entries = c(
+    cohorts$target_entry_count[[1L]],
+    cohorts$comparator_entry_count[[1L]],
+    cohorts$outcome_entry_count[[1L]]
+  ),
+  check.names = FALSE
+)
+knitr::kable(cohort_display)
+```
+
+## Propensity-score adjustment and balance
+
+The matching procedure retained
+`r format(propensity$matched_target_count[[1L]], big.mark = ",")` target subjects
+and `r format(propensity$matched_comparator_count[[1L]], big.mark = ",")`
+comparator subjects in
+`r format(propensity$matched_pair_count[[1L]], big.mark = ",")` matched pairs.
+
+The maximum absolute standardized mean difference changed from
+`r sprintf("%.3f", propensity$maximum_absolute_smd_before[[1L]])` before
+adjustment to
+`r sprintf("%.3f", propensity$maximum_absolute_smd_after[[1L]])` after
+adjustment. The prespecified threshold was
+`r sprintf("%.1f", propensity$balance_threshold[[1L]])`.
+Residual imbalance remained in
+`r propensity$unbalanced_after_count[[1L]]` covariates; therefore matching is not
+presented as proof that confounding was eliminated.
+
+```{r}
+balance_top <- head(balance_plot_data, 40L)
+balance_labels <- abbreviate(balance_top$covariateName, minlength = 35L)
+balance_positions <- seq_len(nrow(balance_top))
+plot(
+  balance_top$absoluteSmd,
+  balance_positions,
+  pch = 19,
+  yaxt = "n",
+  xlab = "Absolute standardized mean difference",
+  ylab = "",
+  main = "Largest absolute balance diagnostics"
+)
+axis(2, at = balance_positions, labels = balance_labels, las = 2, cex.axis = 0.55)
+abline(v = propensity$balance_threshold[[1L]], lty = 2)
+```
+
+## Primary adjusted association
+
+The primary matched analysis included
+`r format(primary$subjectCount[[1L]], big.mark = ",")` subjects and
+`r format(primary$eventCount[[1L]], big.mark = ",")` events.
+
+The odds ratio was
+`r format_estimate_ci(primary$estimate[[1L]], primary$ciLower[[1L]], primary$ciUpper[[1L]])`.
+The model converged and used
+`r primary$varianceEstimator[[1L]]`.
+
+> `r primary$interpretation[[1L]]`
+
+The confidence interval includes 1.0. This result is not interpreted as evidence
+of benefit, harm, equivalence, or absence of an association.
+
+## Prespecified subgroup analyses
+
+```{r}
+subgroup_display <- data.frame(
+  Subgroup = paste(subgroups$subgroupType, subgroups$subgroupLevel, sep = ": "),
+  Status = subgroups$estimabilityStatus,
+  Subjects = subgroups$subjectCount,
+  Events = subgroups$eventCount,
+  Estimate = ifelse(
+    subgroups$estimabilityStatus == "ESTIMABLE",
+    sprintf(
+      "%.2f (%.2f to %.2f)",
+      subgroups$estimate,
+      subgroups$ciLower,
+      subgroups$ciUpper
+    ),
+    subgroups$estimabilityReason
+  ),
+  Residual_imbalances = subgroups$unbalancedCovariateCount,
+  check.names = FALSE
+)
+knitr::kable(subgroup_display)
+```
+
+The age subgroup `>=65` is retained as `NOT_ESTIMABLE`; it is not removed,
+replaced, or pooled after reviewing the results.
+
+## Prespecified sensitivity analyses
+
+```{r}
+sensitivity_display <- data.frame(
+  Scenario = sensitivity$scenarioId,
+  Changed_parameter = sensitivity$changedParameter,
+  Adjustment = sensitivity$adjustmentMethod,
+  Washout_days = sensitivity$washoutDays,
+  Risk_window = paste0(
+    sensitivity$riskWindowStartDays,
+    "-",
+    sensitivity$riskWindowEndDays
+  ),
+  Subjects = sensitivity$subjectCount,
+  Events = sensitivity$eventCount,
+  Estimate = sprintf(
+    "%.2f (%.2f to %.2f)",
+    sensitivity$estimate,
+    sensitivity$ciLower,
+    sensitivity$ciUpper
+  ),
+  check.names = FALSE
+)
+knitr::kable(sensitivity_display)
+```
+
+All five prespecified scenarios are reported without selecting a preferred
+result based on magnitude, direction, confidence interval, or statistical
+significance.
+
+```{r}
+estimable_effects <- effect_plot_data[
+  effect_plot_data$estimabilityStatus == "ESTIMABLE" &
+    is.finite(effect_plot_data$estimate) &
+    is.finite(effect_plot_data$ciLower) &
+    is.finite(effect_plot_data$ciUpper),
+  ,
+  drop = FALSE
+]
+plot_positions <- rev(seq_len(nrow(estimable_effects)))
+plot(
+  estimable_effects$estimate,
+  plot_positions,
+  log = "x",
+  xlim = range(c(estimable_effects$ciLower, estimable_effects$ciUpper)),
+  pch = 19,
+  yaxt = "n",
+  xlab = "Odds ratio (log scale)",
+  ylab = "",
+  main = "Primary, subgroup, and sensitivity estimates"
+)
+segments(
+  estimable_effects$ciLower,
+  plot_positions,
+  estimable_effects$ciUpper,
+  plot_positions
+)
+axis(
+  2,
+  at = plot_positions,
+  labels = estimable_effects$label,
+  las = 2,
+  cex.axis = 0.65
+)
+abline(v = 1, lty = 2)
+```
+
+## Limitations
+
+Eunomia is synthetic or sample demonstration data and does not represent a
+clinical population. The analysis remains vulnerable to residual and unmeasured
+confounding, exposure and outcome misclassification, incomplete observation,
+limited overlap, sparse events, missing data, and model instability.
+
+The post-match balance threshold was not met for every covariate. A short fixed
+risk window and a binary logistic model further restrict interpretation.
+Engineering feasibility, model convergence, and observed balance do not
+establish exchangeability or clinical validity.
+
+## Reproducibility
+
+The report reads only version-controlled aggregate CSV artifacts. It does not
+connect to a database, load row-level records, or recompute cohorts or effect
+estimates. Reporting is rendered with Quarto [@quarto2026] from the frozen
+OHDSI/OMOP workflow [@ohdsi2026; @omopcdm2026].
