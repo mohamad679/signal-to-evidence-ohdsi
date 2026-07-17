@@ -1,0 +1,89 @@
+name: CI
+
+'on':
+  push:
+    branches:
+      - main
+      - "feat/**"
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality:
+    name: R quality and Quarto
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      CI_ENFORCE_CLEAN: "true"
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      R_KEEP_PKG_SOURCE: "yes"
+      PHASE17_PROJECT_ROOT: ${{ github.workspace }}
+      PHASE17_IMPLEMENTATION_ROOT: ${{ github.workspace }}
+      PHASE18_PROJECT_ROOT: ${{ github.workspace }}
+      PHASE18_IMPLEMENTATION_ROOT: ${{ github.workspace }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up R from renv.lock
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: renv
+          use-public-rspm: true
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Restore renv library
+        uses: r-lib/actions/setup-renv@v2
+        with:
+          cache-version: 1
+
+      - name: Record tool versions
+        run: |
+          R --version
+          quarto --version
+          Rscript -e 'renv::status()'
+
+      - name: Parse R sources
+        run: Rscript scripts/10_ci_validate.R --mode=parse
+
+      - name: Lint R sources
+        run: Rscript scripts/10_ci_validate.R --mode=lint
+
+      - name: Run complete test suite
+        run: Rscript scripts/10_ci_validate.R --mode=test
+
+      - name: Run full reproducibility pipeline
+        run: Rscript scripts/10_ci_validate.R --mode=pipeline
+
+      - name: Run security and privacy gates
+        run: Rscript scripts/10_ci_validate.R --mode=security
+
+      - name: Render and validate Quarto reports
+        run: Rscript scripts/10_ci_validate.R --mode=report
+
+      - name: Upload rendered reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: quarto-reports
+          path: |
+            _site/reports/index.html
+            _site/reports/executive_summary.html
+          if-no-files-found: ignore
+          retention-days: 7
